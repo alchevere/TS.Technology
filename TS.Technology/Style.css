@@ -6,6 +6,40 @@ body{
 	max-width: 950px;
 	padding: 1em 1em 2em;
 }
+body {
+	background: linear-gradient(-45deg, #0000FF, #B8B8B8, #6A6A6A, #F0F0F0);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+body {
+  text-align: center;
+  font-size: 120%;
+  line-height: 1.618;
+}
+h1, h2 {
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+}
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+}
+a {
+  color: #4332CF;
+}
 h1, h2, h3, h4, h5, h6 {
     color: #000000;
     font-weight: 600;
@@ -35,6 +69,9 @@ a {color: #249,198,208;}
 	text-transform: uppercase;
 	color:#444;
 	text-decoration: none;
+	font-size: 20px;
+	width: 50px;
+	height: 30px;
 }
 div {
 		padding: 20px;
